@@ -7,6 +7,10 @@
     <h3>{page.error?.message}</h3>
 </div>
 
+<svelte:head>
+    <title>done messed up</title>
+</svelte:head>
+
 <style>
     * {
         font-family: "IBM Plex Mono";
