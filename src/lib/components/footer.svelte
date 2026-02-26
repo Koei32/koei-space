@@ -2,6 +2,7 @@
     import svelte88x31 from "$lib/assets/svelte88x31.png";
     import github88x31 from "$lib/assets/github88x31.png";
     import discord88x31 from "$lib/assets/discord88x31.png";
+    import koeispace from "$lib/assets/koeispace.gif";
     function copyDiscord() {
         navigator.clipboard.writeText("koei32");
     }
@@ -29,14 +30,19 @@
     <div class="end">
         <p>Thanks for visiting!</p>
         <div class="buttons">
-            <a href="https://svelte.dev/"
-                ><img src={svelte88x31} alt="svelte" /></a
+            <a href="https://koei.space/" class="koeispace"
+                ><img src={koeispace} alt="koeispace" /></a
             >
         </div>
     </div>
 </div>
 
 <style>
+    .koeispace {
+        line-height: 0;
+        border: 1px grey solid;
+    }
+
     .footer-wrapper {
         background-color: var(--bg-color-sec);
         width: auto;
