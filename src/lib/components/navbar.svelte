@@ -2,7 +2,7 @@
 </script>
 
 <div>
-    <a href="https://koei.space"><h1>koei.space</h1></a>
+    <a href="https://koei.space"><h2>koei.space</h2></a>
 </div>
 
 <style>
@@ -13,7 +13,7 @@
         border-bottom: 1px #5f5f5f solid;
     }
 
-    h1 {
+    h2 {
         color: var(--fg-color);
         font-family: var(--pri-font);
         font-weight: 400;
