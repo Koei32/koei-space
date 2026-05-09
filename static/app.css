@@ -1,16 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&display=swap");
-
+@font-face {
+    font-family: "Hypebuzz";
+    src: url("/fonts/Hypebuzz.otf");
+}
+@font-face {
+    font-family: "HypebuzzOutline";
+    src: url("/fonts/HypebuzzOutline.ttf");
+}
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    --fg-color: #fff;
+    --fg-color: #ffffff;
     /* --fg-color-sec: #fff; */
-    --bg-color: #191970;
-    --bg-color-sec: #131350;
-    --pri-font: "IBM Plex Mono";
+    --bg-color: #0a0010;
+    --bg-color-sec: #060009;
+    /* --bg-color-sec: #000000; */
+    --pri-font: "HypebuzzOutline";
     background-color: var(--bg-color);
     height: 100vh;
 }

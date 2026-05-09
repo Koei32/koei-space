@@ -20,6 +20,14 @@
         padding: 0;
     }
 
+    h2 {
+        font-family: "HypebuzzOutline";
+    }
+
+    h3 {
+        font-family: "Hypebuzz";
+    }
+
     div {
         width: 100%;
         height: 100%;
